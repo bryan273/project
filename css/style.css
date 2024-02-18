@@ -1,0 +1,379 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	box-sizing: border-box;
+  }
+body{
+	background-color:#eae9e9;
+	margin:0px;
+	padding:0px;
+}
+ul{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+section{
+	width:100%;
+	height:65px;
+}
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	height:60px;
+	background-color:#ffffff;
+	box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+	padding:0px 5%;
+	z-index: 100;
+	position: fixed;
+    top: 0;
+	width: 100%;
+}
+nav ul{
+	display: flex;
+}
+.toggle{
+	display: none;
+}
+ 
+nav ul li a{
+	margin:30px;
+	font-family:myriad pro regular;
+	color:#808080;
+	font-size: 17px;
+	font-weight:700;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-image {
+    width: 40px; /* Adjust size as needed */
+    height: 40px; /* Adjust size as needed */
+    border-radius: 50%; /* Ensures the image is circular */
+    margin-right: 10px;
+}
+
+.logo-text {
+    font-family: "R-flex bold", sans-serif;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+}
+.active{
+	color:#2d2a2a;
+	font-weight:bold;
+}
+/* Projects Logo Bronze Silver Gold*/
+.projects {
+    background-color: #ffffff;
+    padding-top: 0.1%;
+	padding-bottom: 2%;
+	padding-left: 12%;
+	padding-right: 12%;
+    text-align: center;
+}
+.projects-title p {
+    font-family: calibri;
+    font-weight: bold;
+    color: #1d1c1c;
+    font-size: 30px;
+}
+.project-counters img {
+    height: 50px; /* Example height for medal icons */
+}
+
+/* Projects Cards*/
+.project-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card {
+    width: 400px;
+    box-shadow: 2px 2px 18px rgba(0,0,0,0.3);
+    padding: 20px;
+	padding-bottom: 25px;
+    background: #f9f9f9;
+    border-radius: 10px;
+	margin: 0 auto; /* Center cards */
+	display: flex;
+	overflow: hidden;
+    flex-direction: column;
+	justify-content: space-between; /* Distributes space between and around content items */
+}
+.card img {
+    width: 100%;
+    height: auto;
+	vertical-align: middle;
+    display: inline-block;
+	border-radius: 10px;
+}
+.card .project-title img {
+    width: 10%;
+    height: auto;
+	vertical-align: middle;
+    display: inline-block;
+	margin-right: 8px;
+}
+.card .project-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+	text-align: left;
+	line-height:25px;
+}
+.card .project-date {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+	text-align: left;
+}
+.card .project-description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+	text-align: left;
+	flex-grow: 1;
+}
+.read-more {
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+	align-self: center; /* Align the button to the center of the card's cross-axis */
+    margin-top: auto; /* Pushes the button to the bottom */
+    width: fit-content; /* Ensures the button width is only as wide as its content */
+}
+.read-more:hover {
+    background-color: #555;
+}
+
+/* Footer */
+footer {
+	padding-right: 100px;
+	padding-left: 100px;
+	padding-bottom: 20px;
+	padding-top: 10px;
+	
+}
+.footer-branding {
+    display: flex;
+    align-items: center;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px; /* Adjust based on your design */
+    margin: 0 auto;
+}
+.footer-logo img{
+	width: 50px; /* Adjust size as needed */
+    height: 50px; /* Adjust size as needed */
+    border-radius: 50%; /* Ensures the image is circular */
+    margin-right: 10px;
+}
+.footer-text p {
+    margin: 0; /* Remove margin for p elements */
+    line-height: 1.5; /* Adjust line height as necessary */
+    font-size: 16px; /* Adjust font size as necessary */
+	flex-grow: 1;
+}
+.social-icons a{
+	width:50px;
+	height:50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color:#e6e3e3;
+	margin:20px 10px;
+	border-radius:50%;
+}
+.social-icons{
+	display: flex;
+}
+.social-icons i,.social i{
+	color:#000000;
+	font-size: 18px;
+}
+.social-icons a:hover{
+	background-color:#000000;
+	box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+	transition:all ease 0.5s;
+}
+.social-icons a:hover i,
+.social a:hover i{
+	color:#FFFFFF;
+	transition:all ease 0.5s;
+}
+.social{
+	position: fixed;
+	top:50%;
+	right:0px;
+	transform:translateY(-50%);
+}
+.social a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width:50px;
+	height:50px;
+	margin:0px;
+	padding: 0px;
+	line-height:0px;
+	background-color:#FFFFFF;
+	border:1px solid #CBCBCB;
+	box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+}
+.social a:hover{
+	background-color:#000000;
+	transition:all ease 0.5s;
+}
+.social i{
+	font-size:20px;
+	color:#2B2B2B;
+}
+@media(max-width:1177px){
+	.project-counters {
+		align-items: center;
+	}
+	.projects {
+		padding-bottom: 30px;
+	}
+	.project-cards {
+        justify-content: center;
+    }
+	.card .project-title {
+        font-size: 21px; /* Slightly smaller font size for medium screens */
+    }
+    .card .project-date,
+    .card .project-description {
+        font-size: 18px; /* Slightly smaller font size for medium screens */
+    }
+	.card {
+        width: 90%; /* Adjust the percentage as needed */
+    }
+}
+@media(max-width:750px){
+	section{
+		background-image:none;
+		background-color:#f7f7f7;
+	}
+	.toggle{
+		display: block;
+	}
+	.text-container p:nth-child(2){
+		line-height: 40px;
+		margin: 0px;
+		padding: 0px;
+		
+	}
+	.text-container{
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		width: 80%;
+	}
+	nav ul{
+		margin: 0px;
+		padding: 0px;
+		background-color: #ebeef4;
+		flex-direction: column;
+		position: fixed;
+		left: 0;
+		top: 0;
+		width:100%;
+		height: 100vh;
+		box-sizing: border-box;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		z-index: 1;
+		display: none;
+		
+	}
+	nav ul li{
+		padding: 10px;
+	}
+	nav ul li a{
+		font-family: calibri;
+		font-size: 1.4em;
+		text-transform: uppercase;
+		color:#808080;
+	}
+	nav ul li a:hover{
+		color:#121212;
+	}
+	.toggle:before{
+		content: '\f0c9';
+		font-family: fontAwesome;
+		line-height: 30px;
+		z-index: 1;
+	}
+	.toggle.active:before{
+		content: '\f00d';
+		position: fixed;
+		right: 25px;
+		line-height: 0px;
+		
+	}
+	nav.active ul{
+		display: flex !important;
+	}
+	.projects {
+        padding: 2% 5%;
+		padding-bottom: 30px;
+    }
+    .project-counters {
+        flex-direction: column;
+        gap: 15px; /* Space between counters */
+    }
+	.project-cards {
+        flex-direction: column;
+    }
+	.card .project-title {
+        font-size: 16px; /* Even smaller font size for small screens */
+    }
+    .card .project-date,
+    .card .project-description {
+        font-size: 14px; /* Even smaller font size for small screens */
+    }
+    .card {
+        width: 90%; /* Cards take up more screen width */
+        /* If you want the card to always fit the screen with some margin, you can use calc */
+        /* width: calc(100% - 40px); */ /* Adjust the 40px to increase/decrease the margin */
+    }
+	.languages-tools-text {
+        font-size: 16px; /* Decrease font size on smaller screens */
+        line-height: 1.4; /* Adjust line height on smaller screens */
+    }
+	footer {
+        padding: 20px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-branding {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-logo,
+    .social-icons {
+        margin-bottom: 10px;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+}
