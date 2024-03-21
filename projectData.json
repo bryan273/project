@@ -9,7 +9,8 @@
         "imageSrc":"images/ristek-gpt.jpg",
         "title": "RISTEK-GPT",
         "date": "Feb 2024 - Present",
-        "description": "RISTEK-GPT is a helpful AI assistant designed to address user inquiries related to Fasilkom UI and RISTEK questions. We enhance the Retrieval Augmented Generation system with a vector-based search engine and Gemma LLM generator."
+        "description": "RISTEK-GPT is a helpful AI assistant designed to address user inquiries related to Fasilkom UI and RISTEK questions. We enhance the Retrieval Augmented Generation system with a vector-based search engine and Gemma LLM generator.",
+        "readMoreLink": "https://ristekgpt.streamlit.app/"
     },
     {
         "imageSrc":"images/LTE.jpg",
@@ -99,6 +100,7 @@
         "imageSrc":"images/konteksto.jpg",
         "title": "Konteksto",
         "date": "Side Project",
-        "description": "Konteksto is an Indonesian 'Guess the Word' game powered by Artificial Intelligence, where players attempt to uncover a secret word using unlimited guesses."
+        "description": "Konteksto is an Indonesian 'Guess the Word' game powered by Artificial Intelligence, where players attempt to uncover a secret word using unlimited guesses.",
+        "readMoreLink": "https://konteksto.streamlit.app/"
     }
 ]
