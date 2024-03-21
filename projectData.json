@@ -6,6 +6,12 @@
         "description": "Developing an app for PT Transjakarta that leverages an AI model and live GPS to provide live bus location, ETA, and nearby bus stops."
     },
     {
+        "imageSrc":"images/ristek-gpt.jpg",
+        "title": "RISTEK-GPT",
+        "date": "Feb 2024 - Present",
+        "description": "RISTEK-GPT is a helpful AI assistant designed to address user inquiries related to Fasilkom UI and RISTEK questions. We enhance the Retrieval Augmented Generation system with a vector-based search engine and Gemma LLM generator."
+    },
+    {
         "imageSrc":"images/LTE.jpg",
         "title": "Legislative Document Alignment Test with Legal Textual Entailment",
         "date": "Mar 2024",
@@ -88,5 +94,11 @@
         "date": "Jul 2022",
         "description": "This project analyzed the gap between male and female employment rates in Indonesia through dashboard visualization. The dashboard visualization is expected to help women find solutions to overcome job equality. As well as a recommendation system to help women find jobs that match their qualifications.",
         "readMoreLink": "https://lookerstudio.google.com/u/0/reporting/6a95021e-8457-4b2b-a69b-4db37ead8299/page/BRZwC"
+    },
+    {
+        "imageSrc":"images/konteksto.jpg",
+        "title": "Konteksto",
+        "date": "Side Project",
+        "description": "Konteksto is an Indonesian 'Guess the Word' game powered by Artificial Intelligence, where players attempt to uncover a secret word using unlimited guesses."
     }
 ]
